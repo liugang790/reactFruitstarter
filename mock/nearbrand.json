@@ -1,0 +1,83 @@
+{
+  "/fnwx/nearbrand/": {
+      "get":  {
+          "data": {
+            "shop": {
+              "id|1-10":1,
+              "name":"水果忍者加盟店",
+              "phone":"13532111234",
+              "address":"四川省成都市武侯区望江路"
+            },
+            "banners": [
+            {
+              "name": "促销",
+              "description": "活动促销",
+              "seq": 1,
+            	"link": "http://o6rl71xns.bkt.clouddn.com/banner.png",
+            	"img_url": "http://o6rl71xns.bkt.clouddn.com/banner.png"
+            },
+            {
+              "name": "促销",
+              "description": "活动促销",
+              "seq": 2,
+            	"link": "http://o6rl71xns.bkt.clouddn.com/banner.png",
+            	"img_url": "http://o6rl71xns.bkt.clouddn.com/banner.png"
+            },
+            {
+              "name": "促销",
+              "description": "活动促销",
+              "seq": 3,
+            	"link": "http://o6rl71xns.bkt.clouddn.com/banner.png",
+            	"img_url": "http://o6rl71xns.bkt.clouddn.com/banner.png"
+            },
+            {
+              "name": "促销",
+              "description": "活动促销",
+              "seq": 4,
+            	"link": "http://o6rl71xns.bkt.clouddn.com/banner.png",
+            	"img_url": "http://o6rl71xns.bkt.clouddn.com/banner.png"
+            }
+          ],
+          "shop_type": 1,
+          "fruits":[
+            {
+              "id":1,
+              "shop":123,
+              "fvar":663,
+              "name":"【限量500份】进口新鲜柠檬100g约500个",
+              "desc":["1.进口柠檬","2.富含维生素C、美白","3.化痰止咳/生津健胃"],
+              "price":19.9,
+              "img_url":"http://o6rl71xns.bkt.clouddn.com/ff.JPG"
+            },
+            {
+              "id":2,
+              "shop":123,
+              "fvar":663,
+              "name":"新鲜苹果切盘",
+              "desc":"好看的果盘",
+              "price":19.9,
+              "img_url":"http://o6rl71xns.bkt.clouddn.com/gg.JPG"
+            },
+            {
+              "id":3,
+              "shop":123,
+              "fvar":663,
+              "name":"新鲜苹果切盘",
+              "desc":"好看的果盘",
+              "price":19.9,
+              "img_url":"http://7xqlzr.dl1.z0.glb.clouddn.com/abstract04.jpg"
+            },
+            {
+              "id":4,
+              "shop":123,
+              "fvar":663,
+              "name":"新鲜苹果切盘",
+              "desc":"好看的果盘",
+              "price":19.9,
+              "img_url":"http://7xqlzr.dl1.z0.glb.clouddn.com/abstract04.jpg"
+            }
+          ]
+        }
+      }
+  }
+}

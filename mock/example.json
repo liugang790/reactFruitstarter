@@ -1,0 +1,69 @@
+{
+  "/": {
+      "get":  {
+          "data": {
+            "msg":"welcome to mock server"
+        }
+      }
+  },
+
+  "/api/v1/example": {
+      "get":  {
+          "data": {
+            "msg":"this is a GET request"
+      	}
+      },
+      "get[page=2, count=10]": {
+        "data": {
+          "msg":"this url includes query params"
+        }
+      },
+      "post":  {
+        "data": {
+            "msg":"this is a POST request"
+        }
+      }
+  },
+
+  "/api/v1/example_query": {
+      "get[page=2, count=10]": {
+        "data": {
+          "msg":"this includes query params which is a GET request"
+        }
+      },
+      "post[page=2, count=10]":  {
+        "data": {
+            "msg":"this includes query params which is a POST request"
+        }
+      }
+  },
+
+  "/api/v1/example_function": {
+      "get": {
+        "data": {
+          "msg":"this includes query params which is a GET request",
+          "number":"@int(1, 10)",
+          "natural":"@natural(0, 10000)",
+          "name":"@name()",
+          "sentence":"@sentence(0,10)",
+          "paragraph":"@paragraph(0,10)",
+          "phone_number":"@mobile()",
+          "time":"@now()",
+          "color":"@color()",
+          "title":"@title(1, 10)"
+        }
+      }
+  },
+
+  "/api/v1/example_array": {
+      "get": {
+        "data|1-20": [
+          {
+            "name":"@name()",
+            "sex":"@int(0, 1)",
+            "profile":"@sentence(0,10)"
+          }
+        ]
+      }
+  }
+}

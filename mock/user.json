@@ -1,0 +1,21 @@
+{
+  "/fnwx/user/": {
+      "get":  {
+          "data": {
+			  	"openid": "asdf",
+            	"nickname": "saber",
+            	"headimgurl": "http://o6rl71xns.bkt.clouddn.com/nn.jpg",
+            	"email": "work@gmail.com",
+            	"telephone": "13627251148",
+            	"level": 123,
+            	"bonus": 12,
+            	"address": "冬木市"
+			}
+		},
+    "post": {
+        "data": {
+          "success": 204
+        }
+    }
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "/banners": {
+      "get":  {
+          "data":{
+            "banners": [
+            {
+            	"link": "http://o6rl71xns.bkt.clouddn.com/ee.JPG",
+            	"src": "http://o6rl71xns.bkt.clouddn.com/ee.JPG"
+            },
+            {
+            	"link": "http://o6rl71xns.bkt.clouddn.com/ff.JPG",
+            	"src": "http://o6rl71xns.bkt.clouddn.com/ff.JPG"
+            },
+            {
+            	"link": "http://o6rl71xns.bkt.clouddn.com/gg.JPG",
+            	"src": "http://o6rl71xns.bkt.clouddn.com/gg.JPG"
+            },
+            {
+            	"link": "http://o6rl71xns.bkt.clouddn.com/hh.JPG",
+            	"src": "http://o6rl71xns.bkt.clouddn.com/hh.JPG"
+            }
+          ]
+        }
+      }
+  }
+}
